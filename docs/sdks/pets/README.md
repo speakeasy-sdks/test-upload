@@ -17,9 +17,10 @@ Create a pet
 package main
 
 import(
+	testupload "github.com/speakeasy-sdks/test-upload"
 	"context"
 	"log"
-	testupload "github.com/speakeasy-sdks/test-upload"
+	"net/http"
 )
 
 func main() {
@@ -61,9 +62,9 @@ List all pets
 package main
 
 import(
+	testupload "github.com/speakeasy-sdks/test-upload"
 	"context"
 	"log"
-	testupload "github.com/speakeasy-sdks/test-upload"
 )
 
 func main() {
@@ -109,9 +110,9 @@ Info for a specific pet
 package main
 
 import(
+	testupload "github.com/speakeasy-sdks/test-upload"
 	"context"
 	"log"
-	testupload "github.com/speakeasy-sdks/test-upload"
 )
 
 func main() {
