@@ -4,16 +4,16 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.3
-  releaseVersion: 0.3.2
-  configChecksum: 5acda869c2005de82072db78e851f142
+  generationVersion: 2.234.3
+  releaseVersion: 0.3.3
+  configChecksum: d677c828b004f0594e648159985e00a1
   repoURL: https://github.com/speakeasy-sdks/test-upload.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-upload
   published: true
 features:
   go:
-    core: 3.3.0
+    core: 3.3.1
     flattening: 2.81.1
     globalServerURLs: 2.82.1
 generatedFiles:
