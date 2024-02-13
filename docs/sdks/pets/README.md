@@ -76,7 +76,7 @@ func main() {
     s := testupload.New()
 
 
-    var limit *int = 21453
+    var limit *int = testupload.Int(21453)
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, limit)
