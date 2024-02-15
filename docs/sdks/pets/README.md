@@ -30,7 +30,7 @@ func main() {
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx, shared.Pet{
         ID: 596804,
-        Name: "string",
+        Name: "<value>",
     })
     if err != nil {
         log.Fatal(err)
@@ -124,7 +124,7 @@ func main() {
     s := testupload.New()
 
 
-    var petID string = "string"
+    var petID string = "<value>"
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, petID)

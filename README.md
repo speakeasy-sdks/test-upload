@@ -44,7 +44,7 @@ func main() {
 	ctx := context.Background()
 	res, err := s.Pets.CreatePets(ctx, shared.Pet{
 		ID:   596804,
-		Name: "string",
+		Name: "<value>",
 	})
 	if err != nil {
 		log.Fatal(err)
@@ -97,7 +97,7 @@ func main() {
 	ctx := context.Background()
 	res, err := s.Pets.CreatePets(ctx, shared.Pet{
 		ID:   596804,
-		Name: "string",
+		Name: "<value>",
 	})
 	if err != nil {
 
@@ -144,7 +144,7 @@ func main() {
 	ctx := context.Background()
 	res, err := s.Pets.CreatePets(ctx, shared.Pet{
 		ID:   596804,
-		Name: "string",
+		Name: "<value>",
 	})
 	if err != nil {
 		log.Fatal(err)
@@ -180,7 +180,7 @@ func main() {
 	ctx := context.Background()
 	res, err := s.Pets.CreatePets(ctx, shared.Pet{
 		ID:   596804,
-		Name: "string",
+		Name: "<value>",
 	})
 	if err != nil {
 		log.Fatal(err)
