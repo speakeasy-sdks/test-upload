@@ -4,23 +4,22 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.5.0
-  configChecksum: 20a6748110738f221cb8671d7c3cf39a
+  generationVersion: 2.263.3
+  releaseVersion: 0.5.1
+  configChecksum: dc3c79f18819210141a02f9faab31a76
   repoURL: https://github.com/speakeasy-sdks/test-upload.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-upload
   published: true
 features:
   go:
-    core: 3.4.0
+    core: 3.4.1
     flattening: 2.81.1
     globalServerURLs: 2.82.1
 generatedFiles:
   - pets.go
   - testbug.go
   - go.mod
-  - go.sum
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
