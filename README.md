@@ -35,7 +35,6 @@ import (
 	testupload "github.com/speakeasy-sdks/test-upload"
 	"github.com/speakeasy-sdks/test-upload/pkg/models/shared"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -49,8 +48,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -133,7 +131,6 @@ import (
 	testupload "github.com/speakeasy-sdks/test-upload"
 	"github.com/speakeasy-sdks/test-upload/pkg/models/shared"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -149,8 +146,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -169,7 +165,6 @@ import (
 	testupload "github.com/speakeasy-sdks/test-upload"
 	"github.com/speakeasy-sdks/test-upload/pkg/models/shared"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -185,8 +180,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
