@@ -3,17 +3,17 @@ id: 5a1f0484-3749-4d44-9ead-4d1507d01b72
 management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
-  speakeasyVersion: 1.227.0
-  generationVersion: 2.291.0
-  releaseVersion: 0.6.2
-  configChecksum: 7a8716b0548bed36e3e086e06d0e5aa6
+  speakeasyVersion: 1.246.1
+  generationVersion: 2.302.1
+  releaseVersion: 0.6.3
+  configChecksum: 42f216a33a31cbcd8879e0258a95f0a6
   repoURL: https://github.com/speakeasy-sdks/test-upload.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-upload
   published: true
 features:
   go:
-    core: 3.4.5
+    core: 3.4.6
     flattening: 2.81.1
     globalServerURLs: 2.82.2
     responseFormat: 0.1.0
